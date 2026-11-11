@@ -135,8 +135,6 @@ void failsafeInit(void)
 {
     failsafeState.events = 0;
     failsafeState.monitoring = false;
-
-    return;
 }
 
 failsafePhase_e failsafePhase(void)
